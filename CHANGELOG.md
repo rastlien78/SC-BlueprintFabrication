@@ -3,6 +3,14 @@
 Tutte le modifiche di rilievo, versione per versione. Gli eseguibili si scaricano dalla
 pagina [Releases](https://github.com/rastlien78/SC-BlueprintFabrication/releases).
 
+## [1.2.0] — 2026-10-26
+
+### Nuovo
+- **Avviso di nuova versione**: all'avvio l'app controlla se è uscito un aggiornamento e, se
+  c'è, mostra una finestra con le novità e il link per scaricarlo. Con la casella «Non
+  avvisarmi più per questa versione» l'avviso non ricompare fino alla versione successiva.
+  Senza connessione il controllo viene saltato senza disturbare.
+
 ## [1.1.1] — 2026-10-26
 
 ### Corretto
@@ -47,5 +55,6 @@ Prima versione.
 - Import delle blueprint possedute dai `Game.log`, pool missioni, esportazione CSV.
 - Aggiornamento automatico dei dati di gioco all'avvio e splash screen.
 
+[1.2.0]: https://github.com/rastlien78/SC-BlueprintFabrication/releases/tag/v1.2.0
 [1.1.1]: https://github.com/rastlien78/SC-BlueprintFabrication/releases/tag/v1.1.1
 [1.1.0]: https://github.com/rastlien78/SC-BlueprintFabrication/releases/tag/v1.1.0

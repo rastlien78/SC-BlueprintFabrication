@@ -72,6 +72,7 @@ Ogni release include `SHA256SUMS.txt` per verificare l'integrità dei file.
 - Salvataggio automatico di inventario e risultati alla chiusura.
 - Esportazione CSV, guida rapida **«?»** in ogni pannello, tema scuro.
 - **Aggiornamento automatico dei dati di gioco** all'avvio: vengono scaricati solo i file cambiati.
+- **Avviso di nuova versione** all'avvio, con le novità e il link per scaricarla.
 
 ---
 
@@ -104,7 +105,8 @@ l'eseguibile, sposta anche questi due elementi.
 
 ### Aggiornare
 Scarica la nuova versione e **sostituisci solo l'eseguibile**: `raw_data/` e
-`user_session.json` restano, con tutti i tuoi dati.
+`user_session.json` restano, con tutti i tuoi dati. Quando esce una nuova versione, l'app
+te lo segnala all'avvio con le novità e il link per scaricarla.
 
 ---
 
