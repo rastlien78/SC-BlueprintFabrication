@@ -93,9 +93,8 @@ tar -xzf ~/Scaricati/SC-BlueprintFabrication-Linux-x86_64.tar.gz
 ./SC-BlueprintFabrication
 ```
 
-> **Requisito attuale (Linux)**: serve una distribuzione con **glibc 2.44 o superiore**
-> (es. Arch, CachyOS e derivate aggiornate). Il supporto alle distribuzioni più diffuse
-> (Ubuntu, Mint, Debian, Fedora, SteamOS) è in arrivo.
+> **Distribuzioni supportate**: qualsiasi distribuzione x86_64 con glibc 2.35 o superiore,
+> per esempio Ubuntu 22.04+, Linux Mint 21+, Debian 12+, Fedora, Arch/CachyOS e SteamOS.
 
 ### Dove vengono salvati i dati
 Accanto all'eseguibile l'app crea:
