@@ -3,6 +3,15 @@
 Tutte le modifiche di rilievo, versione per versione. Gli eseguibili si scaricano dalla
 pagina [Releases](https://github.com/rastlien78/SC-BlueprintFabrication/releases).
 
+## [1.1.1] — 2026-10-26
+
+### Corretto
+- **Windows**: su alcuni PC (in particolare con Windows installato da poco) il primo avvio
+  non riusciva a scaricare i dati di gioco e mostrava «mancano i dati di gioco». L'app ora
+  include i certificati di sicurezza necessari per collegarsi a GitHub.
+- Se il download dei dati non riesce, la finestra d'errore spiega **il motivo** (nessuna
+  connessione, certificato non riconosciuto, cartella non scrivibile, limite di GitHub).
+
 ## [1.1.0] — 2026-10-26
 
 ### Nuovo
@@ -38,4 +47,5 @@ Prima versione.
 - Import delle blueprint possedute dai `Game.log`, pool missioni, esportazione CSV.
 - Aggiornamento automatico dei dati di gioco all'avvio e splash screen.
 
+[1.1.1]: https://github.com/rastlien78/SC-BlueprintFabrication/releases/tag/v1.1.1
 [1.1.0]: https://github.com/rastlien78/SC-BlueprintFabrication/releases/tag/v1.1.0
