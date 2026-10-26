@@ -14,9 +14,7 @@ cosa puoi craftare dalle tue blueprint, quante unità e con quali caratteristich
 
 </div>
 
-<!-- SCREENSHOT: aggiungere qui un'immagine della finestra principale, es.
-<p align="center"><img src="docs/screenshot-main.png" width="900" alt="Finestra principale"></p>
--->
+<p align="center"><img src="docs/screenshot-main.png" width="900" alt="Finestra principale di SC Blueprint Fabrication"></p>
 
 ---
 
