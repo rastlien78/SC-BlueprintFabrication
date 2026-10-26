@@ -1,0 +1,42 @@
+name: Segnala un bug
+description: Qualcosa non funziona come dovrebbe
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Versione dell'app
+      description: La trovi nello splash screen all'avvio («V x.y.z»).
+      placeholder: "1.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Sistema operativo
+      options:
+        - Windows 11
+        - Windows 10
+        - Linux
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: Cosa è successo
+      description: Descrivi il problema e cosa ti aspettavi invece.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Come riprodurlo
+      placeholder: |
+        1. Apro l'inventario
+        2. Aggiungo ...
+        3. ...
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshot o altro
+      description: Se puoi, allega uno screenshot.
