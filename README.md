@@ -41,6 +41,10 @@ Ogni release include `SHA256SUMS.txt` per verificare l'integrità dei file.
   stesso materiale a qualità diverse.
 - La qualità si sceglie solo tra i **livelli realmente estraibili in gioco** per quel minerale.
 - I materiali mancanti per le blueprint scelte vengono aggiunti e **evidenziati in rosso**.
+- I materiali con più qualità diverse si raccolgono in un **gruppo comprimibile** (con numero
+  di qualità, intervallo e totale), così la lista resta corta.
+- **Ordina e unisci** somma le scorte uguali e riordina il magazzino; diventa rosso quando
+  c'è qualcosa da sommare.
 
 ### 📍 Dove minare
 - Il tasto **Localizza** mostra **dove** si trova un materiale (Stanton, Pyro, Nyx), in quale
@@ -64,8 +68,10 @@ Ogni release include `SHA256SUMS.txt` per verificare l'integrità dei file.
 - **Simula**: slider di qualità per vedere dal vivo come cambiano le caratteristiche.
 
 ### 📊 Caratteristiche finali
-- Per ogni variante craftabile, il **valore base**, il **risultato finale** e il contributo di
-  ogni materiale, calcolati in base alla qualità (scala 0–1000).
+- Una riga per ogni **slot** della ricetta: scegli la **qualità** da usare tra quelle che hai
+  in magazzino e vedi **quanto materiale** serve (per un craft e in totale).
+- Il **valore base**, il **risultato finale** e il contributo di ogni materiale, calcolati in
+  base alla qualità (scala 0–1000).
 - Tasto **Craft** per scalare dall'inventario i materiali consumati.
 
 ### 💾 Comodità
